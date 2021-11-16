@@ -1,0 +1,8 @@
+name: data-processing-environment
+channels:
+  - defaults
+dependencies:
+  - python=3.7.6
+  - pyspark
+  - pip:
+    - python-dotenv
